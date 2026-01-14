@@ -1,9 +1,8 @@
-# Alarm clcok ! For Singel Alarm System with digitl clock
+# Alarm clcok ! For Singel Alarm System with digital clock
 import time 
 from playsound3 import playsound
 import os
 import sys
-import keyboard
 from open import open_alarm_clock # Importing open_alarm_clock function to open the alarm clock script window
 # Feature to add -- add multi alarm system
 time_ = time.strftime("%I:%M:%S %p")
