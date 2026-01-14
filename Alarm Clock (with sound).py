@@ -4,6 +4,7 @@ from playsound3 import playsound
 import os
 import sys
 import keyboard
+from open import open_alarm_clock # Importing open_alarm_clock function to open the alarm clock script window
 # Feature to add -- add multi alarm system
 time_ = time.strftime("%I:%M:%S %p")
 print(f"Current Time | {time_}")
@@ -28,28 +29,22 @@ def ring_alarm():
         print(time_)
         print("Ringing !")
         try:
+            open_alarm_clock()  # Open the alarm clock script window
             playsound("E:\Git and Github\Alarm-clock-Python-project\sound.mp3")
-        except Exception as e:
-            print("Error : ", e)
+        except KeyboardInterrupt:
+            print("Alarm Stopped !")
             sys.exit(0)
 
 while True:
-
-    if  keyboard.is_pressed('q'):
-        print("Alarm Clock Stopped !")
-        break
-    else:
         if temp_list[0] == time.strftime('%I') and temp_list[1] == time.strftime('%M') and temp_list[2] == time.strftime("%p"):
             ring_alarm()
-        
+            break
         else:
             print(time.strftime("%I:%M:%S %p"))
             time.sleep(1) 
             clear_terminal()
             continue
    
-        
-
 # End of the code
 
         
