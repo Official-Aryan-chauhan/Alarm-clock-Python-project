@@ -1,4 +1,4 @@
-# Alarm clcok ! For Singel Alarm System with digitl clock
+# Alarm clcok ! For Singel Alarm System with digital clock
 import time 
 from playsound3 import playsound
 import os
