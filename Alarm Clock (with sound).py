@@ -3,7 +3,7 @@ import time
 from playsound3 import playsound
 import os
 import sys
-from open import open_alarm_clock # Importing open_alarm_clock function to open the alarm clock script window
+from open_the_window import open_alarm_clock # Importing open_alarm_clock function to open the alarm clock script window
 # Feature to add -- add multi alarm system
 time_ = time.strftime("%I:%M:%S %p")
 print(f"Current Time | {time_}")
