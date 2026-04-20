@@ -21,7 +21,7 @@ This repository showcases my learning journey in Python, moving from basic time 
 <br/><br/>
 • multi/ : <br/><br/>
           Description ⇝ Upgraded Version . AT this point i try to use modular approach to make thing simple and clutter free. <br/><br/>
-          Features ⇝ Support Multiple Alarm setting . <br/> <br/>
+          Features ⇝ Support Multiple Alarm setting . <br/>
                      Have Digital clock that show real time . <br/>
                      Modular Approach . <br/>
                      Better User Experience . <br/>
